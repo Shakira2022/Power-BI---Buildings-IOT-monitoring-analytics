@@ -5,7 +5,7 @@ import time
 from datetime import datetime
 from azure.eventhub import EventHubProducerClient, EventData
 
-CONNECTION_STR = "Endpoint=sb://smartcampus-001.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=euSBKhakXKRlRtKy6Cuq7aFMiAc59PzRQ+AEhEJmVCk="
+CONNECTION_STR =  #cannot upload it publicly but data already exists in teh BI file
 EVENT_HUB_NAME = "environment-stream"
 
 producer = EventHubProducerClient.from_connection_string(
